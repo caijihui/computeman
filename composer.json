@@ -1,0 +1,14 @@
+{
+    "name": "caiyuanzi/computeman",
+    "description": "for compute",
+    "require": {
+        "nesbot/carbon": "1.25.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "caijh",
+            "email": "a958243544@163.com"
+        }
+    ]
+}
