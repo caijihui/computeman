@@ -7,6 +7,6 @@
 
 ## demo
 ```php
-   use Computeman\Compute\Compute;
+   use Computeman\Compute;
    Compute::getAge('1990-02-15');
 ```
