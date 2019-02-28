@@ -1,7 +1,6 @@
 <?php
-namespace Computeman;
+namespace Computeman\Compute;
 
-use Illuminate\Http\Request;
 use Carbon\Carbon;
 
 class Compute
@@ -12,7 +11,7 @@ class Compute
      * @param $birthDay
      * @return int
      */
-    public function getAge($birthDay)
+    public static function getAge($birthDay)
     {
         try {
             list($year, $month, $day) = explode('-', $birthDay);

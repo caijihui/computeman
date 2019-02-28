@@ -2,7 +2,14 @@
     "name": "caiyuanzi/computeman",
     "description": "for compute",
     "require": {
-        "nesbot/carbon": "1.25.*"
+        "php": ">=7",
+        "nesbot/carbon": "1.25.*",
+        "illuminate/support": "5.6.x|5.7.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Computeman\\Compute\\": "src/"
+        }
     },
     "license": "MIT",
     "authors": [
@@ -10,5 +17,6 @@
             "name": "caijh",
             "email": "a958243544@163.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
