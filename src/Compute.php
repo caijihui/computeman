@@ -1,5 +1,5 @@
 <?php
-namespace Computeman\Compute;
+namespace Computeman;
 
 use Carbon\Carbon;
 
