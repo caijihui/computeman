@@ -3,7 +3,7 @@
     "description": "for compute",
     "require": {
         "php": ">=7",
-        "nesbot/carbon": "1.25.*",
+        "nesbot/carbon": "1.*",
         "illuminate/support": "5.6.x|5.7.x"
     },
     "autoload": {
